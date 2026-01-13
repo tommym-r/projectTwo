@@ -11,16 +11,16 @@ main():
     make an integer (boolean) called keepGoing start true (-1)
 
     seed random number generator
-    generate random number between 1 and 100 and put in correct
-    ask use for their name and put in userName
+    generate random number between 1 and 100 and put in answer (%100)
+    ask user for their name and put in userName
     greet user with name
 
     while keepGoing is true:
         +1 to turns
-        ask user for a number, but in guess
-        if guess < correct:
+        ask user for a number, put in guess
+        if guess < answer:
             print "too low"
-        else if guess > correct:
+        else if guess > answer:
             print "too high"
         else:
             print "correct, you win"
